@@ -469,3 +469,14 @@ section {
 .card:hover::before {
   opacity: 1;
 }
+
+
+.color-empty {
+  fill: #161b22;
+}
+
+.color-scale-0 { fill: #1e3b8b; }
+.color-scale-1 { fill: #0b1f6a; }
+.color-scale-2 { fill: #3b1992; }
+.color-scale-3 { fill: #2c84d0; }
+.color-scale-4 { fill: #6889cb; }

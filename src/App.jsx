@@ -8,12 +8,14 @@ import ShowcaseSection from "./sections/ShowcaseSection";
 import LogoShowcase from "./sections/LogoShowcase";
 import FeatureCards from "./sections/FeatureCards";
 import Navbar from "./components/NavBar";
+import GithubHeatmap from "./components/GithubHeatmap";
 
 const App = () => {
   return (
     <>
         <Navbar/>
         <Hero/>
+        {/* <GithubHeatmap/> */}
         <ShowcaseSection/>
         <LogoShowcase/>
         <FeatureCards/>
