@@ -66,12 +66,13 @@ const Hero = () => {
             <Button id="button" text="See My Work" className="md:w-80 md:h-16 w-60 h-12"/>
           </div>
         </header>
-        {/* {Right: Hero 3D model} */}
+        {/* {Right: Photo} */}
         <div className='flex items-center justify-center w-full h-screen rounded-full mx-20 z-20'>
           <img src="/images/myPhoto.jpg" alt="my photo" className='image w-100 h-120 object-cover rounded-2xl' />
         </div>
       </div>
-      <AnimatedCounter/>
+
+      {/* <AnimatedCounter/> */}
     </section>
   )
 }

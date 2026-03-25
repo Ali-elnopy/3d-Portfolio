@@ -15,13 +15,13 @@ const App = () => {
     <>
         <Navbar/>
         <Hero/>
-        {/* <GithubHeatmap/> */}
-        <ShowcaseSection/>
         <LogoShowcase/>
+        <GithubHeatmap/>
+        <ShowcaseSection/>
         <FeatureCards/>
-        <Experience/>
-        <TechStack/>
-        <Testimonials/>
+        {/* <Experience/> */}
+        {/* <TechStack/> */}
+        {/* <Testimonials/> */}
         <Contact/>
         <Footer/>
     </>

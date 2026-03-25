@@ -43,12 +43,14 @@ const ShowcaseSection = () => {
           {/* Left */}
           <div ref={project1Ref} className="first-project-wrapper">
             <div className='image-wrapper'>
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <a href="https://mojito-58yz.vercel.app/" target="_blank">
+                <img src="/images/project1.png" alt="Project 1" />
+              </a>
+              
             </div>
             <div className='text-content'>
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                Velvet Pour – Cocktail Bar Landing Page
               </h2>
               <p className='text-white-50 md:text-xl'>
                 An app built with React Native, Expo, & TailwindCSS for a fast,
@@ -60,15 +62,21 @@ const ShowcaseSection = () => {
           <div className='project-list-wrapper overflow-hidden'>
             <div ref={project2Ref} className='project'>
               <div className='image-wrapper bg-[#FFEFDB]'>
-                <img src="/images/project2.png" alt="Library Management Platform" />
+                <a href="https://restorant-landing-page-a19rv5z6e-ali-elnobys-projects.vercel.app/" target="_blank">
+                  <img src="/images/project2.png" alt="Restaurant Landing Page" />
+                </a>
+                
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Restaurant Landing Page</h2>
             </div>
             <div ref={project3Ref} className='project'>
               <div className='image-wrapper bg-[#FFE7EB]'>
-                <img src="/images/project3.png" alt="Library Management Platform" />
+                <a href="https://ai-rev-puce.vercel.app/" target="_blank">
+                  <img src="/images/project3.png" alt="AI Revolution - Tech Landing Page" />
+                </a>
+                
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>AI Revolution - Tech Landing Page</h2>
             </div>
           </div>
         </div>
