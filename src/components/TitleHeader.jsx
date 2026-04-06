@@ -1,8 +1,15 @@
 import React from 'react'
 
-const TitleHeader = () => {
+const TitleHeader = ({title,sub}) => {
   return (
-    <div>TitleHeader</div>
+    <div className='flex flex-col gap-5 items-center'>
+      <div className='hero-badge'>
+        <p>{sub}</p>
+      </div>
+      <div className='font-semibold md:text-5xl text-3xl text-center'>
+        <h1>{title}</h1>
+      </div>
+    </div>
   )
 }
 

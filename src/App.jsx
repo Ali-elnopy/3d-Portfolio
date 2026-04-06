@@ -9,22 +9,23 @@ import LogoShowcase from "./sections/LogoShowcase";
 import FeatureCards from "./sections/FeatureCards";
 import Navbar from "./components/NavBar";
 import GithubHeatmap from "./components/GithubHeatmap";
+import ReactLenis from "lenis/react";
 
 const App = () => {
   return (
-    <>
+    <ReactLenis root>
         <Navbar/>
         <Hero/>
-        <LogoShowcase/>
         <GithubHeatmap/>
         <ShowcaseSection/>
+        <LogoShowcase/>
         <FeatureCards/>
         {/* <Experience/> */}
         {/* <TechStack/> */}
         {/* <Testimonials/> */}
         <Contact/>
         <Footer/>
-    </>
+    </ReactLenis>
   )
 }
 

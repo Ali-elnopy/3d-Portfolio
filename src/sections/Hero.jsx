@@ -36,7 +36,7 @@ const Hero = () => {
   return (
     <section id='hero' className="relative overflow-hidden">
       <div className='absolute top-0 left-0 z-10'>
-        <img src="/images/bg.png" alt="background" />
+        <img src="/images/bg.png" alt="background"/>
       </div>
       <div className='flex flex-row'>
         {/* {Left: Hero Content} */}
@@ -63,6 +63,7 @@ const Hero = () => {
               <h1>that Deliver Results</h1>
             </div>
             <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>Hi, I'am Ali, a developer based in Croatia with a passion for code.</p>
+            
             <Button id="button" text="See My Work" className="md:w-80 md:h-16 w-60 h-12"/>
           </div>
         </header>
@@ -72,7 +73,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* <AnimatedCounter/> */}
+      <AnimatedCounter/>
     </section>
   )
 }
